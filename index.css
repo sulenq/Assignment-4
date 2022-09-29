@@ -1,0 +1,28 @@
+:root {
+    --p3: rgb(49 46 129);
+}
+
+.btn {
+    border: none;
+    border-right: 3px solid var(--p3);
+    border-bottom: 4px solid var(--p3);
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn:active{
+    background: var(--p1c);
+    border: none;
+    border-left: 3px solid var(--p3);
+    border-top: 4px solid var(--p3);
+}
+
+
